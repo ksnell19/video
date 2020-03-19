@@ -87,7 +87,7 @@ a {
 #blog,
 #counter,
 #portfolio{
-  padding: 50px 0;
+  padding: 10px 0;
   z-index: 10; }
 #contact {
   padding: 70px 0 30px 0; }
@@ -617,6 +617,10 @@ section .section_padding {
   /* margin-left: 1em; */
 }
 
+#about h2{
+  padding-top: 5px;
+}
+
 #about .textOne{
   margin-bottom: 1em;
 }
@@ -698,7 +702,7 @@ section .section_padding {
 /* Portfolio ---------------------------*/
 .section-title{
     text-align: center;
-    padding: 0px 0 40px 0;
+    padding: 5px 0 40px 0;
 }
 
 section .section-title .section_header{
@@ -713,6 +717,7 @@ section .section-title .section_header{
 .portfolio_filter ul{
     margin: auto;
     display: inline-block;
+
 }
 
 .portfolio_filter ul li{
@@ -744,6 +749,7 @@ section .section-title .section_header{
     margin: auto;
     width: 50%;
     position: relative;
+    height: auto;
 }
 
 .single_item img{
@@ -808,6 +814,14 @@ img[src="work-6.jpg"] a:focus, a:hover .overlay{
 
 #blog {
   background: #8FB5C6 url(../img/overlay.png) repeat; }
+
+#blog h2{
+  padding-top: 5px;
+}
+
+#blog iframe{
+  padding-bottom: 25px;
+}
 
 .blog_block {
   position: relative;
